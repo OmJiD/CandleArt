@@ -2430,24 +2430,20 @@
                     </div>
                     <div class="candle-gallery-wrap">
                         <div class="candle-gallery-orbit" aria-label="Deep Roshni candle collection">
-                            <div class="candle-card"><img
-                                    src="images/img_15.jpg"
-                                    alt="Handcrafted rose candle"><span class="image-label">Handcrafted</span></div>
-                            <div class="candle-card"><img
-                                    src="images/img_6.jpg"
+                            <div class="candle-card"><img src="images/img_15.jpg" alt="Handcrafted rose candle"><span
+                                    class="image-label">Handcrafted</span></div>
+                            <div class="candle-card"><img src="images/img_6.jpg"
                                     alt="Heart shaped candles in green and pink"><span class="image-label">Heart
                                     candles</span></div>
-                            <div class="candle-card"><img
-                                    src="images/img_30.jpg"
-                                    alt="Green rose candle"><span class="image-label">Colour story</span></div>
-                            <div class="candle-card"><img
-                                    src="images/img_12.jpg"
-                                    alt="Teddy bear shaped festive candle"><span class="image-label">Festive shape</span>
+                            <div class="candle-card"><img src="images/img_30.jpg" alt="Green rose candle"><span
+                                    class="image-label">Colour story</span></div>
+                            <div class="candle-card"><img src="images/img_12.jpg"
+                                    alt="Teddy bear shaped festive candle"><span class="image-label">Festive
+                                    shape</span>
                             </div>
-                            <div class="candle-card"><img
-                                    src="images/img_9.jpg"
-                                    alt="Pair of festive rose candles"><span
-                                    class="image-label">Diwali glow</span></div>
+                            <div class="candle-card"><img src="images/img_9.jpg"
+                                    alt="Pair of festive rose candles"><span class="image-label">Diwali glow</span>
+                            </div>
                         </div>
                     </div>
                     <div class="candle-status" id="candleMessage">✨ Five little scenes, one warm festive glow</div>
@@ -2760,58 +2756,283 @@
            ================================================================ */
         const PRODUCTS = [
             {
-                id: "marigold-trio",
-                name: "Marigold Rose Candle Set",
-                desc: "Hand-poured rose candles in warm marigold and leaf shades.",
-                price: 499,
-                mrp: 649,
+                id: "vintage-ivory-bloom",
+                name: "Vintage Ivory Bloom Candle",
+                desc: "Layered rose petals hand-poured in organic soy wax with subtle taupe accents.",
+                price: 399,
+                mrp: 549,
+                tag: "Artisan Pick",
+                img: "images/img_1.jpg"
+            },
+            {
+                id: "crimson-cream-peony",
+                name: "Crimson & Cream Peony Candle",
+                desc: "Dual-tone hand-carved floral candle with vibrant crimson undertones.",
+                price: 449,
+                mrp: 599,
                 tag: "Bestseller",
-                img: "images/img_31.jpg"
+                img: "images/img_2.jpg"
             },
             {
-                id: "clay-diya-candle",
-                name: "Festive Tea-Light Candle Set (Set of 12)",
-                desc: "Hand-finished statement candles made to glow beautifully in festive spaces.",
+                id: "scarlet-rose-blossom",
+                name: "Scarlet Rose Petal Candle",
+                desc: "Exquisite rose blossom featuring rich festive red tips on ivory soy wax.",
+                price: 429,
+                mrp: 579,
+                tag: "Festive Special",
+                img: "images/img_3.jpg"
+            },
+            {
+                id: "botanical-bear-gel-jar",
+                name: "Botanical Bear Gel Candle",
+                desc: "Hand-poured clear crystal gel candle with dried botanicals and a sage teddy bear.",
                 price: 349,
-                mrp: 450,
-                tag: "Traditional",
-                img: "images/img_10.jpg"
+                mrp: 499,
+                tag: "Handcrafted",
+                img: "images/img_4.jpg"
             },
             {
-                id: "rose-gold-pillar",
-                name: "Blush Rose Candle",
-                desc: "A statement rose candle, hand-poured in soft blush pink.",
-                price: 599,
-                mrp: 799,
-                tag: "Premium",
-                img: "images/img_11.jpg"
-            },
-            {
-                id: "floating-candles",
-                name: "Aromatic Floating Candles (Pack of 20)",
-                desc: "Scented floating candles for diyas, bowls, and rangoli water bodies.",
+                id: "honeycomb-heart-pink",
+                name: "Honeycomb Heart Candle",
+                desc: "Modern waffle-textured geometric heart candle in soft pastel pink.",
                 price: 299,
                 mrp: 399,
-                tag: "Fragrance",
+                tag: "Trending",
+                img: "images/img_5.jpg"
+            },
+            {
+                id: "rose-heart-duo",
+                name: "Rose-Embossed Heart Duo (Set of 2)",
+                desc: "Two romantic heart candles textured with miniature roses in jade green and blush pink.",
+                price: 549,
+                mrp: 749,
+                tag: "Set of 2",
+                img: "images/img_6.jpg"
+            },
+            {
+                id: "cashmere-rose-bloom",
+                name: "Cashmere Rose Blossom",
+                desc: "Delicately sculpted ruffled rose candle infused with warm festive vanilla aroma.",
+                price: 399,
+                mrp: 549,
+                tag: "New Arrival",
+                img: "images/img_7.jpg"
+            },
+            {
+                id: "terracotta-floral-diya",
+                name: "Terracotta Mitti Diya Candle",
+                desc: "Traditional earthenware diya filled with natural soy wax and a sculpted floral motif.",
+                price: 199,
+                mrp: 299,
+                tag: "Traditional",
                 img: "images/img_8.jpg"
             },
             {
-                id: "diwali-hamper",
-                name: "Deep Roshni Gift Hamper",
-                desc: "A curated box of statement candles and festive accents, beautifully gift-wrapped.",
-                price: 899,
-                mrp: 1199,
+                id: "heart-rose-pair",
+                name: "Heart Rose Bloom Pair",
+                desc: "Twin sculpted heart-shaped rose candles in deep ruby and tender pink hues.",
+                price: 499,
+                mrp: 699,
+                tag: "Bestseller",
+                img: "images/img_9.jpg"
+            },
+            {
+                id: "pastel-teddy-quad",
+                name: "Pastel Teddy Bear Set (Pack of 4)",
+                desc: "Charming quartet of cuddly teddy candles in rose pink, golden honey, ruby, and sage.",
+                price: 649,
+                mrp: 899,
+                tag: "Pack of 4",
+                img: "images/img_10.jpg"
+            },
+            {
+                id: "blush-heart-rose",
+                name: "Blush Rose Petal Heart",
+                desc: "A statement heart candle sculpted like an opening rosebud in two-tone pink.",
+                price: 349,
+                mrp: 499,
+                tag: "Handcrafted",
+                img: "images/img_11.jpg"
+            },
+            {
+                id: "marigold-carved-pillar",
+                name: "Marigold Carved Floral Pillar",
+                desc: "Rich saffron orange pillar candle carved with cascading roses and festive drapes.",
+                price: 599,
+                mrp: 799,
+                tag: "Diwali Special",
+                img: "images/img_12.jpg"
+            },
+            {
+                id: "golden-glow-camellia",
+                name: "Golden Glow Camellia Candle",
+                desc: "Pristine white multi-layered bloom candle featuring subtle honey-gold central petals.",
+                price: 449,
+                mrp: 599,
+                tag: "Premium",
+                img: "images/img_13.jpg"
+            },
+            {
+                id: "sage-forest-peony",
+                name: "Sage Forest Peony Candle",
+                desc: "Hand-poured blooming succulent candle in a refreshing natural earthy sage shade.",
+                price: 379,
+                mrp: 499,
+                tag: "Eco-Friendly",
+                img: "images/img_14.jpg"
+            },
+            {
+                id: "crimson-swirl-bloom",
+                name: "Crimson Swirl Peony Bloom",
+                desc: "Intricate floral candle featuring vivid crimson edges on ivory wax petals.",
+                price: 419,
+                mrp: 569,
+                tag: "Bestseller",
+                img: "images/img_15.jpg"
+            },
+            {
+                id: "jade-ruby-roses-duo",
+                name: "Jade & Ruby Sculpted Roses (Pair)",
+                desc: "Two handcrafted blooming rose buds in complementary jade green and festive scarlet.",
+                price: 479,
+                mrp: 649,
+                tag: "Set of 2",
+                img: "images/img_16.jpg"
+            },
+            {
+                id: "bowtie-teddy-pink",
+                name: "Bow-Tie Teddy Bear Candle",
+                desc: "Adorable handcrafted textured teddy bear candle with a bow in sweet blush pink.",
+                price: 279,
+                mrp: 399,
+                tag: "Trending",
+                img: "images/img_17.jpg"
+            },
+            {
+                id: "blossom-bouquet-candle",
+                name: "Blossom Bouquet Pillar Candle",
+                desc: "A clustered bouquet of hand-sculpted pink roses nestled on emerald green foliage.",
+                price: 529,
+                mrp: 729,
+                tag: "Limited Edition",
+                img: "images/img_18.jpg"
+            },
+            {
+                id: "festive-glow-platter",
+                name: "Festive Glow Platter Hamper",
+                desc: "Curated gift set with a pink teddy bear candle and floral terracotta diya on a scalloped tray.",
+                price: 699,
+                mrp: 999,
                 tag: "Gifting",
                 img: "images/img_19.jpg"
             },
             {
-                id: "bokeh-tealights",
-                name: "Scented Tea Lights (Box of 24)",
-                desc: "Long-burning tea lights in sandalwood, rose and mogra scents.",
-                price: 249,
+                id: "spherical-rose-pomander",
+                name: "Spherical Rose Pomander Candle",
+                desc: "Stunning 360-degree ball candle encrusted entirely with sculpted baby pink roses.",
+                price: 459,
+                mrp: 629,
+                tag: "Artisan Pick",
+                img: "images/img_20.jpg"
+            },
+            {
+                id: "sandstone-peony-candle",
+                name: "Warm Sandstone Peony Candle",
+                desc: "Muted earth-toned handcrafted peony candle with lifelike layered petal textures.",
+                price: 389,
+                mrp: 529,
+                tag: "Handcrafted",
+                img: "images/img_21.jpg"
+            },
+            {
+                id: "royal-saffron-pillar",
+                name: "Royal Saffron Floral Pillar",
+                desc: "Grand festive pillar candle adorned with three-dimensional rose garlands and scrolls.",
+                price: 629,
+                mrp: 849,
+                tag: "Festive Special",
+                img: "images/img_22.jpg"
+            },
+            {
+                id: "crystal-botanical-bear",
+                name: "Crystal Botanical Bear Jar",
+                desc: "Enchanting transparent gel wax candle infused with rose petals and a cute green bear.",
+                price: 369,
+                mrp: 499,
+                tag: "New Arrival",
+                img: "images/img_23.jpg"
+            },
+            {
+                id: "crimson-floating-diya",
+                name: "Crimson Floral Floating Diya",
+                desc: "Dual-toned floating candle with curling rose petals, designed for festive water bowls.",
+                price: 229,
                 mrp: 329,
-                tag: "Everyday",
+                tag: "Diwali Special",
+                img: "images/img_24.jpg"
+            },
+            {
+                id: "royal-crimson-peony",
+                name: "Royal Crimson Peony Candle",
+                desc: "Premium hand-poured soy wax peony candle with deep red rimmed ruffled petals.",
+                price: 439,
+                mrp: 599,
+                tag: "Premium",
+                img: "images/img_25.jpg"
+            },
+            {
+                id: "teddy-celebration-platter",
+                name: "Teddy Celebration Platter (Set of 4)",
+                desc: "Complete 4-color bear collection displayed on an elegant scalloped presentation tray.",
+                price: 749,
+                mrp: 1049,
+                tag: "Gifting",
                 img: "images/img_26.jpg"
+            },
+            {
+                id: "scarlet-swirl-diya",
+                name: "Scarlet Swirl Water Diya",
+                desc: "Floating festive candle shaped like an unfolding rose in bright crimson and cream.",
+                price: 239,
+                mrp: 349,
+                tag: "Traditional",
+                img: "images/img_27.jpg"
+            },
+            {
+                id: "festive-twin-roses",
+                name: "Festive Twin Roses (Ruby & Sage)",
+                desc: "Harmonious pair of blooming rose candles for Diwali table decor or festive pooja thalis.",
+                price: 489,
+                mrp: 659,
+                tag: "Set of 2",
+                img: "images/img_28.jpg"
+            },
+            {
+                id: "sweetheart-rose-duo",
+                name: "Sweetheart Rose Duo (Pink & Red)",
+                desc: "Two romantic heart-shaped rose candles in soft blush and deep crimson.",
+                price: 499,
+                mrp: 699,
+                tag: "Bestseller",
+                img: "images/img_29.jpg"
+            },
+            {
+                id: "emerald-succulent-rose",
+                name: "Emerald Succulent Rose Candle",
+                desc: "A vibrant emerald green sculpted succulent flower candle with natural cotton wick.",
+                price: 359,
+                mrp: 489,
+                tag: "Trending",
+                img: "images/img_30.jpg"
+            },
+            {
+                id: "marigold-swirl-quad",
+                name: "Marigold Swirl Candle Set (Pack of 4)",
+                desc: "Festive four-piece set of swirl rose candles in traditional marigold yellow and leaf green.",
+                price: 499,
+                mrp: 699,
+                tag: "Bestseller",
+                img: "images/img_31.jpg"
             }
         ];
 
@@ -3003,13 +3224,23 @@ Please share the final price, delivery timeline and payment options.`;
            ================================================================ */
         function initShowcase() {
             const ring = document.getElementById("showcaseRing");
-            const imgs = PRODUCTS.map(p => p.img);
-            const n = imgs.length;
-            const radius = 260;
-            ring.innerHTML = imgs.map((src, i) => {
+            // Pick a curated set of 8 distinct designs for the 3D rotating ring
+            const showcaseItems = [
+                PRODUCTS[1],  // Crimson & Cream Peony (img_2)
+                PRODUCTS[5],  // Rose-Embossed Heart Duo (img_6)
+                PRODUCTS[7],  // Terracotta Mitti Diya (img_8)
+                PRODUCTS[9],  // Pastel Teddy Bear Set (img_10)
+                PRODUCTS[11], // Marigold Carved Floral Pillar (img_12)
+                PRODUCTS[17], // Blossom Bouquet Pillar (img_18)
+                PRODUCTS[22], // Crystal Botanical Bear Jar (img_23)
+                PRODUCTS[30]  // Marigold Swirl Candle Set (img_31)
+            ];
+            const n = showcaseItems.length;
+            const radius = 280;
+            ring.innerHTML = showcaseItems.map((p, i) => {
                 const angle = (360 / n) * i;
                 return `<div class="ring-item" style="transform:rotateY(${angle}deg) translateZ(${radius}px);">
-              <img src="${src}" alt="Candle product photo">
+              <img src="${p.img}" alt="${p.name}">
             </div>`;
             }).join("");
         }
